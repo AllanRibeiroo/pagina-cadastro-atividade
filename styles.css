@@ -1,0 +1,45 @@
+/* Definir estilos globais */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  
+  
+  body {
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+ 
+  div {
+    background-color: red;
+    padding: 32px; 
+    font-family: Arial;
+  
+    max-width: 400px;
+    border-radius: 32px; 
+  }
+    img {
+    width: 300px;
+    height: 150px;
+    }
+  
+  label {
+    font-weight: bold; 
+  }
+  
+  button {
+    background-color: blue;
+    margin-top: 20px; 
+    padding: 32px; 
+  }
+  
+  button:hover {
+    background-color: yellow; 
+    color: orange; 
+    font-weight: bold; 
+    border-radius: 100px; 
+  } 
